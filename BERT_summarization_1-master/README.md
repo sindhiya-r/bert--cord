@@ -1,25 +1,5 @@
-# The pre-print article is out! 
-please visit, and suggest if you want to see any changes. I thanks our co-authors/collaborators Bowen Tan and Yiming Niu from Rockefeller University. 
-https://arxiv.org/abs/2006.01997
-
----
-
-# command line interface
-
-I added a more user friendly command line pre-processing/training/summarization codes for the GPT2. These are the GPT2_preprocessing.py, trainGPT2.py, and GPT2_summarizer.py. To use it, first you'd need Huggingface's transformer package, and a folder where you'd want to save your fine-tuned model on.
-For the training and validation dataset, refer to the notebook *pre-processing-text-for-GPT2-fine-tuning*.
-(Update on Aug 21 2020)
-
-## setting up the environment
-To install from the Pipfile
-
-`pipenv install`
-
-or to install from the requirements.txt
-
-`pip install -r requirements.txt`
-
 ## pre-processing
+
 
 The code is in the GPT2_preprocessing.py and the helperGPT2.py.
 The pre-processing takes the input = metadata.csv given in the [COVID19 Open Research dataset](https://www.kaggle.com/allen-institute-for-ai/CORD-19-research-challenge)
